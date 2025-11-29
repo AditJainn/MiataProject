@@ -1,0 +1,65 @@
+
+## FOREWORD  
+
+
+Before proceeding with the following troubleshooting, Refer to section GI to understand the basic troubleshooting procedure. Perform the diagnostic trouble code inspection.  
+
+
+## ENGINE ON-BOARD DIAGNOSIS  
+
+
+## Descriptions  
+
+
+Use the NGS tester for diagnosis on OBD- II equipped vehicles. The NGS tester has a generic scan tool function that is standard across the automotive industry in the United States. It also performs the manufacture's specific functions; that is, the NGS tester can perform various functions according to the vehicle and program card selected.  
+
+
+## Generic Functions  
+
+
+Use these functions by selecting "GENERIC OBDII FUNCTIONS" from the NGS tester menu screen. These functions enable you to monitor on- board diagnostic system data and Diagnostic Trouble Codes (DTCs) that are related to emissions, as defined and fixed by OBD- II regulations. These functions are found even in commonly marketed scan tools and are called "generic functions".  
+
+
+## Specific Functions  
+
+
+Specific Functions- "Specific functions" are original scan tool functions created by various manufactures in order to be able to troubleshoot effectively. When using these functions, the correct vehicle model and program card must be selected.  
+
+
+## Pending Trouble Codes  
+
+
+Pending Trouble Codes- The following functions are generic functions.- These appear when a problem is detected in a monitored system. The MIL is illuminated when a problem is detected in two consecutive drive cycles. The code for a failed system is stored in the PCM memory in the first drive cycle. This code is called the pending code. If the problem is not found in the second drive cycle, the PCM judges that the system returned to normal or the problem was mistakenly detected, and deletes the pending code. If the problem is found in the second drive cycle too, the PCM judges that the system has failed, deletes the pending code, illuminates the MIL and stored the DTC.  
+
+
+If a diagnostic trouble code is displayed, proceed with inspection steps for the code. When the engine can be started, perform "ENGINE TUNE- UP".  
+
+
+## Freeze Frame Data  
+
+
+Freeze Frame Data- This is the technical data which indicates the engine's condition at the time of the first malfunction. This data will remain in the memory even if another emission- related DTC is stored, with the exception of the Misfire or Fuel System DTCs. Once freeze frame data for the Misfire or Fuel System DTC is stored, it will overwrite any previous data and the freeze frame will not be overwritten again.  
+
+
+## On-Board System Readiness Test  
+
+
+On- Board System Readiness Test- This shows OBD- II systems operating status. If any monitor function is incomplete, NGS tester will identify which monitor function has not been completed. Misfires, Fuel System and Comprehensive Components (CCM) are continuous monitoring- type functions and will display a "CONT" message on the screen of the NGS tester. The catalyst, EGR system, evaporation system and oxygen sensor will be monitored under drive cycles. The NGS tester will display a "YES" message once those system monitor functions are completed. The OBD- II diagnostic system is initialized by performing the DTC cancellation procedure or disconnecting the negative battery cable.  
+
+
+## Diagnostic Monitoring Test Results  
+
+
+Diagnostic Monitoring Test Results- These results from the intermittent monitor system's technical data, which are used to determine whether the system is normal or not. They also display the system's thresholds and diagnostic results. The intermittent monitor system monitors the oxygen sensor, evaporative purge system, catalyst and the EGR system.  
+
+
+## Read/Clear Diagnostic Test Results  
+
+
+Read/Clear Diagnostic Test Results- The following functions are generic functions.- This retrieves all stored Diagnostic Trouble Codes (DTCs) in the PCM and clears the DTC, Freeze Frame Data, On- Board Readiness Test Results, Diagnostic Monitoring Test Results and Pending Trouble Codes.  
+
+
+## Parameter Identification (PID) Access  
+
+
+Parameter Identification (PID) Access- The PID mode allows access to certain data values, analog and digital inputs and outputs, calculated values and system status information. Since PID values for output devices are PCM internal data values, perform the Simulation Test to identify which output devices are malfunctioning.

@@ -1,0 +1,35 @@
+
+ABS HARNESS AND INPUT SIGNAL INSPECTION 
+
+
+Caution 
+
+
+- Disconnecting and connecting the ABS CM connector must be done with the ignition switch off.
+- When checking the harness connector, the SST must be used. 
+
+
+1. Disconnect the ABS CM connector and connect the SST to the harness connector with the ignition switch OFF. 
+
+
+2. Attach the tester leads to the SST to inspect for voltage, continuity, or resistance, referring to the table below. 
+
+![](images/0.jpg)
+
+ 
+
+
+Note 
+
+
+- Voltage is measured between applicable terminal and GND terminal of ABS CM harness connector. 
+
+![](images/1.jpg)
+
+ 
+
+
+USU4132: 
+
+
+<table><tr><td>Terminal</td><td>Signal name</td><td>Connected to</td><td>Item</td><td>Condition</td><td>Specification</td><td>Possible cause</td></tr><tr><td>A</td><td>Voltage supply (System)</td><td>IG SW</td><td>Voltage</td><td>IG SW is at ON<br/>IG SW is off</td><td>B+<br/>0 V</td><td>Harness (IG SW —<br/>ABS CM connector)</td></tr><tr><td rowspan="3">B</td><td rowspan="3">Voltage supply (Relay drive)</td><td rowspan="3">HU (motor relay, valve relay coil)</td><td rowspan="3">Continuity</td><td>B—GND</td><td>No</td><td rowspan="3">Harness (B — motor<br/>relay — valve relay, G<br/>— motor relay, B —<br/>valve relay)<br/>Motor relay<br/>Valve relay</td></tr><tr><td>B—A</td><td>No</td></tr><tr><td>B—G</td><td>72—88 Ω</td></tr><tr><td rowspan="3">G</td><td rowspan="3">Motor relay drive</td><td rowspan="3">HU (motor relay coil)</td><td rowspan="3">Continuity</td><td>B—AK</td><td>93—113 Ω</td><td rowspan="3">Harness (B — motor<br/>relay — valve<br/>relay, G<br/>— motor relay, B —<br/>valve relay)<br/>Valve relay</td></tr><tr><td>G—GND</td><td>No</td></tr><tr><td>G—A</td><td>No</td></tr><tr><td rowspan="3">AK</td><td rowspan="3">Valve relay drive</td><td rowspan="3">HU (valve relay coil)</td><td rowspan="3">Continuity</td><td>B—G</td><td>72—88 Ω</td><td rowspan="3">Harness (B — motor<br/>relay — valvel<br/>relay, G<br/>— motor relay, B —<br/>valve relay)<br/>Motor relay<br/>Valve relay</td></tr><tr><td>AK—GND</td><td>No</td></tr><tr><td>AK—A</td><td>No</td></tr><tr><td></td><td></td><td></td><td>Resistance</td><td>B—AK</td><td>93—113 Ω</td><td></td></tr><tr><td rowspan="3">P</td><td rowspan="3">On-board diagnosis TBS</td><td rowspan="3">Data link connector TBS</td><td rowspan="3">Continuity</td><td>P—GND</td><td>No</td><td rowspan="3">Harness (P — TBS at<br/>DLC)</td></tr><tr><td>P—A</td><td>No</td></tr><tr><td>P—TBS at DLC</td><td>Yes</td></tr><tr><td rowspan="3">AT</td><td rowspan="3">On-board diagnosis FBS</td><td rowspan="3">Data link connector FBS</td><td rowspan="3">Continuity</td><td>AT—GND</td><td>No</td><td rowspan="3">Harness (AT — FBS at<br/>DLC)</td></tr><tr><td>AT—A</td><td>No</td></tr><tr><td>AT—FBS at DLC</td><td>Yes</td></tr><tr><td rowspan="3">X</td><td rowspan="3">Motor monitor</td><td rowspan="3">HU (ABS motor)</td><td rowspan="3">Voltage</td><td>When B+ applied<br/>between B and G</td><td>B+</td><td rowspan="3">Harness (B — motor<br/>relay — G, motor relay<br/>— battery, X — motor<br/>relay — motor, motor<br/>— motor GND)<br/>Motor<br/>Motor relay</td></tr><tr><td>When open between<br/>B and G</td><td>0 V</td></tr><tr><td>Continuity</td><td>X—GND</td><td>Yes</td></tr></table>

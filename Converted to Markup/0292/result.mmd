@@ -1,0 +1,43 @@
+
+## PID/DATA MONITOR INSPECTION  
+
+
+## Procedure  
+
+
+## Note  
+
+
+Note- PIDs for the following parts are not available on this model. Go to the appropriate part inspection page.- Engine coolant temperature sensor (Water temperature sender unit). (Refer to 01- 40 ENGINE COOLANT TEMPERATURE SENSOR INSPECTION.)- Camshaft position sensor. (Refer to 01- 40 CAMSHIFT POSITION SENSOR INSPECTION.)- Main relay. (Refer to 01- 40 MAIN RELAY INSPECTION.)  
+
+
+1. Connect the NGS tester to the DLC-2. (Refer to 01-01A ENGINE ON-BOARD DIAGNOSTIC, On-Board Diagnostic Test.) 
+2. Turn the ignition switch on.  
+
+
+3. Select the "PID/DATA MONITOR AND RECORD" function on the NGS display and press TRIGGER. (Refer to 01-01A ENGINE ON-BOARD DIAGNOSTIC,PID/DATA Monitor and Record Procedure.)  
+
+
+4. Select the appropriate PID on the NGS display and press START.  
+
+
+5. Measure the PID value.  
+
+
+## Note  
+
+
+Note- When measuring the following PID value, perform the following:- FTP V PID. (Refer to 01- 40 PID/DATA MONITOR INSPECTION, FTP V PID Inspection procedure.)- BARO V PID. (Refer to 01- 40 PID/DATA MONITOR INSPECTION,BARO V PID Inspection procedure.)- TP V PID. (Refer to 01- 40 PID/DATA MONITOR INSPECTION,TV V PID Inspection procedure.)  
+
+
+6. If PID value is not within the specification, follow the instruction in ACTION column.  
+
+
+## Note  
+
+
+Note- Perform the SIMULATION TEST for the output device after PID/DATA measurement is completed.  
+
+
+
+<table><tr><td>Monitor item (Definition)</td><td>Unit/ Condition</td><td>Condition/Specification (Reference)</td><td>Action</td><td>PCM terminal</td></tr><tr><td>A/C RLY (A/C relay)</td><td>ON/OFF</td><td>A/C operating: ON Ignition switch ON: OFF</td><td>Inspect following PIDs: RPM, TP V, ECT V, A/C SW. Inspect A/C relay<br>07-40</td><td>1S</td></tr><tr><td>A/C SW (Refrigerant pressure switch)</td><td>ON/OFF</td><td>Refrigerant pressure switch and fan switch ON: ON Refrigerant pressure switch OFF: OFF</td><td>Inspect refrigerant pressure switch<br>07-40</td><td>1P</td></tr><tr><td>ALTF (Generator field coil control duty value)</td><td>%</td><td>Ignition switch ON: 0% Idle: 0-100% Generator operating → E/L ON: Duty value rise</td><td>Inspect following PIDs: IAT, IAT V, RPM, B+, B+2, ALTT V. Inspect generator<br>01-17</td><td>10</td></tr><tr><td>ALTT V (Generator output voltage)</td><td>V</td><td>Ignition switch ON: 0 V Idle: B+ +1 V</td><td>Inspect following PIDs: IAT, IAT V, RPM, B+,B+2, ALTF. Inspect generator<br>01-17</td><td>1T</td></tr><tr><td>B+ (Battery positive voltage)</td><td>V</td><td>Ignition switch ON: B+</td><td>Inspect main relay<br>01-40<br>Inspect battery<br>01-17</td><td>1B</td></tr><tr><td>B+2 (PCM back-up positive voltage)</td><td>V</td><td>Constant: B+</td><td>Inspect battery<br>01-17</td><td>1H</td></tr><tr><td>BARO (Barometric pressure)</td><td>kPa</td><td>Hg</td><td>Below 400 m (0.25 mile) above sea level: 99-103 kPa (29-30 inHg)</td><td>Inspect EGR boost sensor<br>01-40</td><td>3S</td></tr><tr><td>BARO V (Barometric pressure signal voltage)</td><td>V</td><td></td><td>Below 400 m (0.25 mile) above sea level: 4.1-4.3 V With pressure gauge: Vacuum reading -26.6 kPa (-200 mmHg, -7.85 inHg): 3.0-3.4 V</td><td>Inspect EGR boost sensor<br>01-40</td><td>3S</td></tr></table>

@@ -1,0 +1,62 @@
+
+
+<table><tr><td>Monitor item (Definition)</td><td>Unit/ Condition</td><td>Condition/Specification (Reference)</td><td>Action</td><td>PCM terminal</td></tr><tr><td>RHO2S (Heated oxygen sensor (Rear))</td><td>V</td><td>Ignition switch ON: 0—1.0 V<br>Idle (After warm up): 0—1.0 V<br>Idle (Engine cold): 0—0.5 V<br>Accelerate: 0.5—1.0 V<br>Decelerate: 0—0.5 V</td><td>Inspect heated oxygen sensor<br>☑ 01-40</td><td>3J</td></tr><tr><td>RHO2S (Heated oxygen sensor heater (Rear))</td><td>ON/OFF</td><td>Engine coolant temperature above 70 °C (158 °F): ON<br>Engine coolant temperature below 70 °C (158 °F): OFF</td><td>Inspect following PIDs: ECT V, MAF V, Inspect heated oxygen sensor heater<br>☑ 01-40</td><td>3V</td></tr><tr><td>RPM (Engine speed)</td><td>rpm</td><td>Idle: 750—850 rpm</td><td>Inspect crankshaft position sensor<br>☑ 01-40</td><td>2J</td></tr><tr><td>SEGRP (EGR valve (stepping motor) position)</td><td>step</td><td>Ignition switch ON: 0 step<br>Idle: 0 step<br>Cranking: 0—60 steps</td><td>Inspect following PIDs: ECT V, TP V, Inspect EGR valve<br>☑ 01-16</td><td>2M, 2N, 2O, 2P</td></tr><tr><td>TEN (TEN terminal (DLC))</td><td>ON/OFF</td><td>Open terminal TEN: OFF<br>Short terminal TEN: ON</td><td>Inspect the DLC TEN terminal and PCM connector terminal 1L</td><td>1L</td></tr><tr><td>TP V (Throttle position sensor signal voltage)</td><td>V</td><td>Closed throttle position: 0.1—1.1 V<br>Wide open throttle: 3.0—4.6 V</td><td>Inspect throttle position sensor<br>☑ 01-40</td><td>3E</td></tr><tr><td>TR SW (AT) (Transmission range switch)</td><td>ON/OFF</td><td>P or N range: ON<br>Others: OFF</td><td>Inspect transmission range switch<br>☑ 05-13</td><td>1V</td></tr><tr><td>VICSV (VICS solenoid valve)</td><td>ON/OFF</td><td>Ignition switch ON: ON<br>Idle: ON<br>Engine speed above 5250 rpm: OFF</td><td>Inspect following PID: RPM, Inspect VICS solenoid valve<br>☑ 01-13</td><td>3Q</td></tr><tr><td>VS (Vehicle speed)</td><td>KPH</td><td>Vehicle speed 20 km/h (12.5 mph): 20 km/h (12.5 mph)<br>Vehicle speed 40 km/h (25 mph): 40 km/h (25 mph)</td><td>Inspect vehicle speed sensor<br>☑ 09-22</td><td>2D</td></tr></table>  
+
+
+## FTP V PID Inspection Procedure  
+
+
+1. Confirm the ignition switch is turned on. 
+2. Confirm that the following PIDs are within the specifications:  
+
+
+## BARO  
+
+
+101.3 kPa (760 mmHg, 29.9 inHg) (Absolute pressure)  
+
+
+## IAT 30-100°C(86-212°F)  
+
+
+3. Disconnect the fuel tank pressure sensor connector and measure the voltage at fuel tank pressure sensor connector terminal C.  
+
+
+## Voltage 5.0 V  
+
+
+4. Reconnect the connector.  
+
+
+5. Disconnect the vacuum hose from the fuel tank pressure sensor. Connect the vacuum pump to the fuel tank pressure sensor.  
+
+
+6. Select FTP V PID on the NGS tester and press  
+
+
+START.  
+
+
+7. Apply the vacuum and verify that the FTP V is as specified on the table.  
+
+
+## BARO V PID Inspection Procedure  
+
+
+1. Confirm the ignition switch is turned on. 
+2. Confirm that the follwing PIDs are within the specifications:  
+
+
+## BARO  
+
+
+101.3 kPa (760 mmHg, 29.9 inHg) ( Absolute pressure)  
+
+
+## IAT  
+
+
+10- 50°C (50- 122°F)  
+
+
+3. Disconnect the EGR boost sensor connector and measure the voltage at EGR boost sensor connector terminal C.

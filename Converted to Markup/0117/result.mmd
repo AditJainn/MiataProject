@@ -1,0 +1,29 @@
+
+<table><tr><td>STEP</td><td>INSPECTION</td><td>ACTION</td></tr><tr><td rowspan="2">6</td><td rowspan="2">Clear diagnostic trouble code from memory. Is same code No. present after rechecking.</td><td>Yes Get assistance from technical Hotline/your distributor, then replace PCM if necessary.</td></tr><tr><td>No Check TCM, then go to next step.</td></tr><tr><td rowspan="2">7</td><td rowspan="2">Clear diagnostic trouble code from memory. Is there any diagnostic trouble code present after performing "After Repair Procedure"?</td><td>Yes Go to applicable DTC inspection.</td></tr><tr><td>No Troubleshooting completed.</td></tr></table>
+
+
+<table><tr><td>DTC P1608, P1609</td><td></td></tr><tr><td>DETECTION CONDITION</td><td>• PCM does not read diagnostic trouble codes from output devices</td></tr><tr><td>POSSIBLE CAUSE</td><td>• PCM malfunction</td></tr><tr><td>STEP</td><td>INSPECTION</td><td>ACTION</td></tr><tr><td>—</td><td>—</td><td>Get assistance from Technical Hotline/your distributor, then replace PCM if necessary.</td></tr></table>
+
+
+<table><tr><td>DTC P1631</td><td>Generator output voltage signal no electricity</td></tr><tr><td>DETECTION CONDITION</td><td>• When PCM demands generated current above 20 A to generator, PCM judges generator output voltage below 8.5 V</td></tr><tr><td>POSSIBLE CAUSE</td><td>• Generator malfunction<br/>• Open or short circuit in wiring from generator to PCM terminal 1T<br/>• Open or short circuit in wiring from generator to PCM terminal 10</td></tr><tr><td>STEP</td><td>INSPECTION</td><td>ACTION</td></tr><tr><td rowspan="2">
+1 Does generator connector or PCM connector have poor connection?
+</td><td>Yes Go to next step.</td></tr><tr><td>No Repair or replace connector, then go to step 8.</td></tr><tr><td rowspan="2">
+2 Is generator generating current when engine is running?
+</td><td>Yes Go to next step.</td></tr><tr><td>No Go to step 5.</td></tr><tr><td rowspan="2">
+3 Implement PID/DATA MONITOR AND RECORD (ALTT V) of DIAGNOSTIC DATA LINK by using NGS tester.
+Is voltage as specified?</td><td>Yes Go to step 6.</td></tr><tr><td>No Go to next step.</td></tr><tr><td rowspan="2">
+4 Disconnect generator connector.
+Is there continuity between connector terminal P and PCM terminal 1T?</td><td>Yes Check generator, then go to step 8.
+➔ 01-17 GENERATOR INSPECTION</td></tr><tr><td>No Repair or replace connector, then go to step 8.</td></tr></table><table><tr><td rowspan="2">
+5 Implement PID/DATA MONITOR AND RECORD (ALT F) of DIAGNOSTIC DATA LINK by using NGS tester.
+Is voltage as specified?
+</td><td>Yes Go to next step.</td></tr><tr><td>No Go to step 7.</td></tr><tr><td rowspan="2">
+6 Is there continuity between connector terminal D and PCM terminal 10?
+</td><td>Yes Check generator, then go to step 8.
+➔ 01-17 GENERAL INSPECTION</td></tr><tr><td>No Repair or replace connector, then go to step 9</td></tr><tr><td rowspan="2">
+7 Clear diagnostic trouble code from memory.
+Is same code No. present after performing "After Repair Procedure"?
+</td><td>Yes Get assistance from Technical Hotline/your distributor, then replace PCM if necessary.</td></tr><tr><td>No Intermittent poor connection in harness or connector. Repair connector and/or harness, then go to next step.</td></tr><tr><td rowspan="2">
+8 Clear diagnostic trouble code from memory.
+Is there any diagnostic trouble code present after performing "After Repair Procedure"?
+</td><td>Yes Go to applicable DTC inspection.</td></tr><tr><td>No Troubleshooting completed. </td></tr></table>
